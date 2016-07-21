@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @code_snippet.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @code_snippet.description %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @code_snippet.code %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @code_snippet.user_id %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @code_snippet.created_at %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @code_snippet.updated_at %>
+</p>
+
+<p>
+  <strong>Created by:</strong>
+  <%= @code_snippet.created_by %>
+</p>
+
+<p>
+  <strong>Updated by:</strong>
+  <%= @code_snippet.updated_by %>
+</p>
+
+<p>
+  <strong>Deleted at:</strong>
+  <%= @code_snippet.deleted_at %>
+</p>
+
+
+<p>
+  <strong>Status:</strong>
+  <%= @code_snippet.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_code_snippet_path(@code_snippet) %> |
+<%= link_to 'Back', code_snippets_path %>

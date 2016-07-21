@@ -1,0 +1,2 @@
+json.extract! code_snippet, :id, :title, :description, :code, :user_id, :created_at, :updated_at, :created_by, :updated_by, :deleted_at, :status, :created_at, :updated_at
+json.url code_snippet_url(code_snippet, format: :json)
